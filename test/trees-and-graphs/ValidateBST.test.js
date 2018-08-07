@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 const Node = require('../../lib/TreeNode')
-const ValidateBST = require('../../trees-and-graphs/ValidateBST')
+const ValidateBST = require('../../problems/trees-and-graphs/ValidateBST')
 const ValidateBSTObj = new ValidateBST()
 
 describe('ValidateBST', function(){
