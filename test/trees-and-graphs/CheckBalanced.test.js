@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 const Node = require('../../lib/TreeNode')
-const CheckBalanced = require('../../trees-and-graphs/CheckBalanced')
+const CheckBalanced = require('../../problems/trees-and-graphs/CheckBalanced')
 const CheckBalancedObj = new CheckBalanced()
 
 describe('CheckBalanced', function(){
