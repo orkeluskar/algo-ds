@@ -8,12 +8,13 @@ describe('ContiguousSequence', function(){
 
         // 1. Arrange
         const list = [2, -8, 3, -2, 4, -10]
+        const expectedResult = 5
 
         // 2. Act
-        const maxSum = ContiguousSequenceObj.getMaxSum(list)
+        const actualResult = ContiguousSequenceObj.getMaxSum(list)
 
         // 3. Assert
-        expect(maxSum).to.be.equal(5);
+        expect(actualResult).to.be.equal(expectedResult);
 
     })
 
@@ -21,12 +22,13 @@ describe('ContiguousSequence', function(){
 
         // 1. Arrange
         const list = [5, -100, 50, 20, 56, -200, 99]
+        const expectedResult = 126
 
         // 2. Act
-        const maxSum = ContiguousSequenceObj.getMaxSum(list)
+        const actualResult = ContiguousSequenceObj.getMaxSum(list)
 
         // 3. Assert
-        expect(maxSum).to.be.equal(126);
+        expect(actualResult).to.be.equal(expectedResult);
 
     })
 

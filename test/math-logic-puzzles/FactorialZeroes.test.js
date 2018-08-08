@@ -6,39 +6,42 @@ describe('FactorialZeroes', function(){
     it('Should Count the number of trailing zeroes in n factorial', function(){
         
         // 1.Arrange
-        let number = 5
+        const number = 5,
+            expectedResult = 1
 
         // 2. Act
-        const numberOfZeroes = FactorialZeroesObj.trailingZeroes(number)
+        const actualResult = FactorialZeroesObj.trailingZeroes(number)
 
         // 3. Assert
-        expect(numberOfZeroes).to.be.equal(1);
+        expect(actualResult).to.be.equal(expectedResult);
 
     })
 
     it('Should Count the number of trailing zeroes in n factorial', function(){
         
         // 1.Arrange
-        let number = 4
+        const number = 4,
+            expectedResult = 0
 
         // 2. Act
-        const numberOfZeroes = FactorialZeroesObj.trailingZeroes(number)
+        const actualResult = FactorialZeroesObj.trailingZeroes(number)
 
         // 3. Assert
-        expect(numberOfZeroes).to.be.equal(0);
+        expect(actualResult).to.be.equal(expectedResult);
 
     })
 
     it('Should Count the number of trailing zeroes in n factorial', function(){
         
         // 1.Arrange
-        let number = 10
+        const number = 10,
+            expectedResult = 2
 
         // 2. Act
-        const numberOfZeroes = FactorialZeroesObj.trailingZeroes(number)
+        const actualResult = FactorialZeroesObj.trailingZeroes(number)
 
         // 3. Assert
-        expect(numberOfZeroes).to.be.equal(2);
+        expect(actualResult).to.be.equal(expectedResult);
 
     })
 })
