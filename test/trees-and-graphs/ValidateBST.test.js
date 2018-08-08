@@ -26,11 +26,13 @@ describe('ValidateBST', function(){
         n2.left = n5
         n2.right = n6
 
+        const expectedResult = true
+
         // 2. ACT
-        const isValid = ValidateBSTObj.checkBST(root)
+        const actualResult = ValidateBSTObj.checkBST(root)
         
         // 3. ASSERT
-        expect(isValid).to.be.equal(true);
+        expect(actualResult).to.be.equal(expectedResult);
     })
 
     it('Should check if the tree is Valid', function(){
@@ -55,11 +57,13 @@ describe('ValidateBST', function(){
         n2.left = n5
         n2.right = n6
 
+        const expectedResult = false
+
         // 2. ACT
-        const isValid = ValidateBSTObj.checkBST(root)
+        const actualResult = ValidateBSTObj.checkBST(root)
         
         // 3. ASSERT
-        expect(isValid).to.be.equal(false);
+        expect(actualResult).to.be.equal(expectedResult);
     })
 
     it('Should check if the tree is Valid', function(){
@@ -84,10 +88,12 @@ describe('ValidateBST', function(){
         n2.left = n5
         n2.right = n6
 
+        const expectedResult = false
+
         // 2. ACT
-        const isValid = ValidateBSTObj.checkBST(root)
+        const actualResult = ValidateBSTObj.checkBST(root)
         
         // 3. ASSERT
-        expect(isValid).to.be.equal(false);
+        expect(actualResult).to.be.equal(expectedResult);
     })
 })

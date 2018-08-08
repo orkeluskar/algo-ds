@@ -26,11 +26,13 @@ describe('CheckBalanced', function(){
         n2.left = n5
         n2.right = n6
 
+        const expectedResult = true
+
         // 2. ACT
-        const isBalanced = CheckBalancedObj.isBalanced(root)
+        const actualResult = CheckBalancedObj.isBalanced(root)
         
         // 3. ASSERT
-        expect(isBalanced).to.be.equal(true);
+        expect(actualResult).to.be.equal(expectedResult);
     })
 
     it('Should check if the tree is Balanced', function(){
@@ -50,10 +52,12 @@ describe('CheckBalanced', function(){
         n1.left = n3
         n1.right = n4
 
+        const expectedResult = false
+
         // 2. ACT
-        const isBalanced = CheckBalancedObj.isBalanced(root)
+        const actualResult = CheckBalancedObj.isBalanced(root)
         
         // 3. ASSERT
-        expect(isBalanced).to.be.equal(false);
+        expect(actualResult).to.be.equal(expectedResult);
     })
 })
