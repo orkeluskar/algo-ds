@@ -39,6 +39,8 @@ Since, this is written in JavaScript, you'll need [Node](https://nodejs.org/) in
    1. [`Smallest Difference`](./problems/arrays/SmallestDifference.js)
    2. [`Contiguous Sequence`](./problems/arrays/ContiguousSequence.js)
    3. [`Sum Swap`](./problems/arrays/SumSwap.js)
+   4. [`Shuffle Cards`](./problems/arrays/ShuffleCards.js)
+   5. [`MajorityElement`](./problems/arrays/MajorityElement.js)
 2. [Trees and Graphs](./problems/trees-and-graphs/)
     1. [`Check Balanced`](./problems/trees-and-graphs/CheckBalanced.js)
     2. [`Validate BST`](./problems/trees-and-graphs/ValidateBST.js)
