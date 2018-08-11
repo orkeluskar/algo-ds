@@ -46,6 +46,7 @@ Since, this is written in JavaScript, you'll need [Node](https://nodejs.org/) in
     2. [`Validate BST`](./problems/trees-and-graphs/ValidateBST.js)
     3. [`Pond Sizes`](./problems/trees-and-graphs/PondSizes.js)
 3. [Math, Logic and puzzles](./problems/math-logic-puzzles/)
-    1. [`Factorial Zeroes`](./problems/math-logic-puzzles/FactorialZeroes.js) 
+    1. [`Factorial Zeroes`](./problems/math-logic-puzzles/FactorialZeroes.js)
+    2. [`Heavy Pill`](./problems/math-logic-puzzles/HeavyPill.js)
 4. [String](./problems/string)
     1. [`Word Distance`](./problems/string/WordDistance.js)
