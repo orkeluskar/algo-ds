@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const FactorialZeroes = require('../../problems/math-logic-puzzles/FactorialZeroes')
 const FactorialZeroesObj = new FactorialZeroes()

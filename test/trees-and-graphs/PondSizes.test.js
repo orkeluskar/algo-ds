@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const PondSizes = require('../../problems/trees-and-graphs/PondSizes')
 const PondSizesObj = new PondSizes()

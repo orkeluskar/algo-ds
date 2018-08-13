@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const Node = require('../../lib/TreeNode')
 const CheckBalanced = require('../../problems/trees-and-graphs/CheckBalanced')

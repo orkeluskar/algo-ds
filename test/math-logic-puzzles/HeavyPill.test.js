@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const HeavyPill = require('../../problems/math-logic-puzzles/HeavyPill')
 const HeavyPillObj = new HeavyPill()

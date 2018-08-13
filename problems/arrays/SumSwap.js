@@ -1,3 +1,5 @@
+'use strict'
+
 /* 
 Given two arrays of integeres, find a pair of values (one value from each array) that you can swap to give the arrays the same sum.
 

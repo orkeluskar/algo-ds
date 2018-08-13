@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const MajorityElement = require('../../problems/arrays/MajorityElement')
 const MajorityElementObj = new MajorityElement()
