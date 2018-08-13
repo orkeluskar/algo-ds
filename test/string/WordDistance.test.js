@@ -30,8 +30,8 @@ describe('WordDistance', function(){
         // 1. Arrange
         const file = "Testing code with this ever-longing use of the words, which you might think are just for the test case of this code base. Yes, you're right in that, Kudos!"
         const words = file.split(" "),
-            word1 = "code"
-            word2 = "the"
+            word1 = "code",
+            word2 = "the",
             expectedResult = {
                 location1: 21,
                 location2: 16
