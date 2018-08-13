@@ -1,3 +1,5 @@
+'use strict'
+
 /* 
 A majority element is an element that makes up more than half of the items in an array.
 Given a a positive integers arrays, find the marjority element. If there is no majority element, return -1. Do this in O(n) time and O(1) space.

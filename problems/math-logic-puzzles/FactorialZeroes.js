@@ -1,3 +1,5 @@
+'use strict'
+
 /*
 Write an algorithm which computes the number of trailing zeroes in n factorial
 */

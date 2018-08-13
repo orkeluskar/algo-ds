@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const ContiguousSequence = require('../../problems/arrays/ContiguousSequence')
 const ContiguousSequenceObj = new ContiguousSequence()

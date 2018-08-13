@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const WordDistance = require('../../problems/string/WordDistance')
 const WordDistanceObj = new WordDistance()

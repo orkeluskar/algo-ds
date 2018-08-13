@@ -1,3 +1,5 @@
+'use strict'
+
 /* 
 Given an array of integers (both positive and negative). Find the contiguouse sequence with the largest sum. Return the sum.
 

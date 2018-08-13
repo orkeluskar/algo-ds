@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const SumSwap = require('../../problems/arrays/SumSwap')
 const SumSwapObj = new SumSwap()

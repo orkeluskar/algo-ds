@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const TripleStep = require('../../problems/recursion-and-dynamic-programming/TripleStep')
 const TripleStepObj = new TripleStep()

@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const RobotInGrid = require('../../problems/recursion-and-dynamic-programming/RobotInGrid')
 const RobotInGridObj = new RobotInGrid()

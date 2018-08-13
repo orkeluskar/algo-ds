@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const SmallestDifference = require('../../problems/arrays/SmallestDifference')
 const SmallestDifferenceObj = new SmallestDifference()

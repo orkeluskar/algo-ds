@@ -1,3 +1,5 @@
+'use strict'
+
 const expect = require('chai').expect
 const Node = require('../../lib/TreeNode')
 const ValidateBST = require('../../problems/trees-and-graphs/ValidateBST')

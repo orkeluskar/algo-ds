@@ -1,3 +1,5 @@
+'use strict'
+
 /* 
 You have and interger matrix represting a plot of land, where the value at that location represents the height above sea level.
 A value of zero indicates water. A pond is a regionn of water connected vertically, horizontally, or diagonally.
