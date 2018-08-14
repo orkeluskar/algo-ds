@@ -53,3 +53,5 @@ Since, this is written in JavaScript, you'll need [Node](https://nodejs.org/) in
 5. [Recursion & Dynamic Programming](./problems/recursion-and-dynamic-programming)
     1. [`Triple Step`](./problems/recursion-and-dynamic-programming/TripleStep.js)
     2. [`Robot In A Grid`](./problems/recursion-and-dynamic-programming/RobotInGrid.js)
+6. [Design](./problems/design)
+    1. [`LRU Cache`](./problems/design/LRUCache.js)
